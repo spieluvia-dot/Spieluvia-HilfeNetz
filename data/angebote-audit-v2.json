@@ -1,0 +1,957 @@
+{
+  "schema_version": 2,
+  "updated": "2026-11-06",
+  "note": "Alle 50 Einträge einzeln inventarisiert und nach Angebotsart eingeteilt. Offen bedeutet nicht unabhängig geprüft. Status teilgeprüft ist keine vollständige Freigabe.",
+  "entries": [
+    {
+      "name": "Ins Netz gehen",
+      "topic": "Mediennutzung",
+      "description": "Prävention und Beratung rund um exzessive Mediennutzung.",
+      "url": "https://www.ins-netz-gehen.de/",
+      "id": "HN-001",
+      "kind": "Beratung & Hilfe",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.ins-netz-gehen.de/"
+    },
+    {
+      "name": "DigiSucht",
+      "topic": "Mediennutzung",
+      "description": "Digitale Suchtberatung für Betroffene und Angehörige.",
+      "url": "https://www.suchtberatung.digital/",
+      "id": "HN-002",
+      "kind": "Beratung & Hilfe",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.suchtberatung.digital/"
+    },
+    {
+      "name": "ELSA",
+      "topic": "Familie",
+      "description": "Onlineberatung für Eltern bei problematischem Konsum.",
+      "url": "https://www.elternberatung-sucht.de/",
+      "id": "HN-003",
+      "kind": "Beratung & Hilfe",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.elternberatung-sucht.de/"
+    },
+    {
+      "name": "Nummer gegen Kummer",
+      "topic": "Krisenhilfe",
+      "description": "Vertrauliche Hilfe für Kinder, Jugendliche und Eltern.",
+      "url": "https://www.nummergegenkummer.de/",
+      "id": "HN-004",
+      "kind": "Beratung & Hilfe",
+      "status": "teilgeprüft",
+      "verification": {
+        "official_site": true,
+        "link_live": false,
+        "service_scope": true,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": "2026-11-06"
+      },
+      "source_url": "https://www.nummergegenkummer.de/kinder-und-jugendberatung/faq-kinder-und-jugendtelefon/"
+    },
+    {
+      "name": "JUUUPORT",
+      "topic": "Online-Sicherheit",
+      "description": "Jugendliche beraten Jugendliche bei Problemen im Internet.",
+      "url": "https://www.juuuport.de/",
+      "id": "HN-005",
+      "kind": "Beratung & Hilfe",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.juuuport.de/"
+    },
+    {
+      "name": "klicksafe",
+      "topic": "Medienkompetenz",
+      "description": "Informationen und Materialien zur sicheren Mediennutzung.",
+      "url": "https://www.klicksafe.de/",
+      "id": "HN-006",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.klicksafe.de/"
+    },
+    {
+      "name": "SCHAU HIN!",
+      "topic": "Medienkompetenz",
+      "description": "Elternratgeber zur Medienerziehung.",
+      "url": "https://www.schau-hin.info/",
+      "id": "HN-007",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.schau-hin.info/"
+    },
+    {
+      "name": "bke-Onlineberatung",
+      "topic": "Familie",
+      "description": "Onlineberatung für Jugendliche und Eltern.",
+      "url": "https://www.bke-beratung.de/",
+      "id": "HN-008",
+      "kind": "Beratung & Hilfe",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.bke-beratung.de/"
+    },
+    {
+      "name": "bke Beratungsstellensuche",
+      "topic": "Familie",
+      "description": "Regionale Erziehungs- und Familienberatungsstellen finden.",
+      "url": "https://www.bke.de/",
+      "id": "HN-009",
+      "kind": "Vermittlung & Meldestellen",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.bke.de/"
+    },
+    {
+      "name": "Familienportal des Bundes",
+      "topic": "Familie",
+      "description": "Informationen zu Leistungen und Hilfen für Familien.",
+      "url": "https://familienportal.de/",
+      "id": "HN-010",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://familienportal.de/"
+    },
+    {
+      "name": "TelefonSeelsorge",
+      "topic": "Krisenhilfe",
+      "description": "Vertrauliche Gesprächsangebote bei persönlichen Krisen.",
+      "url": "https://www.telefonseelsorge.de/",
+      "id": "HN-011",
+      "kind": "Beratung & Hilfe",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.telefonseelsorge.de/"
+    },
+    {
+      "name": "jugend.support",
+      "topic": "Online-Sicherheit",
+      "description": "Hilfe bei Problemen und Risiken im Internet.",
+      "url": "https://www.jugend.support/",
+      "id": "HN-012",
+      "kind": "Vermittlung & Meldestellen",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.jugend.support/"
+    },
+    {
+      "name": "Internet-ABC",
+      "topic": "Medienkompetenz",
+      "description": "Wissen für Kinder, Eltern und Lehrkräfte rund um das Internet.",
+      "url": "https://www.internet-abc.de/",
+      "id": "HN-013",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.internet-abc.de/"
+    },
+    {
+      "name": "Deutsches Jugendinstitut",
+      "topic": "Familie",
+      "description": "Forschung und Informationen zu Kindheit, Jugend und Familie; keine individuelle Krisenberatung.",
+      "url": "https://www.dji.de/",
+      "id": "HN-014",
+      "kind": "Forschung & Netzwerke",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.dji.de/"
+    },
+    {
+      "name": "Deutsche Hauptstelle für Suchtfragen",
+      "topic": "Mediennutzung",
+      "description": "Fachinformationen und Orientierung im Suchthilfesystem.",
+      "url": "https://www.dhs.de/",
+      "id": "HN-015",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.dhs.de/"
+    },
+    {
+      "name": "Medienanstalt NRW",
+      "topic": "Medienkompetenz",
+      "description": "Materialien zu Medienbildung und Jugendschutz.",
+      "url": "https://www.medienanstalt-nrw.de/",
+      "id": "HN-016",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.medienanstalt-nrw.de/"
+    },
+    {
+      "name": "Landesmedienzentrum Baden-Württemberg",
+      "topic": "Medienkompetenz",
+      "description": "Angebote zur Medienbildung für Schulen und Familien.",
+      "url": "https://www.lmz-bw.de/",
+      "id": "HN-017",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.lmz-bw.de/"
+    },
+    {
+      "name": "Medienpädagogischer Forschungsverbund Südwest",
+      "topic": "Medienkompetenz",
+      "description": "Studien zur Mediennutzung von Kindern und Jugendlichen.",
+      "url": "https://www.mpfs.de/",
+      "id": "HN-018",
+      "kind": "Forschung & Netzwerke",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.mpfs.de/"
+    },
+    {
+      "name": "Stiftung Digitale Chancen",
+      "topic": "Medienkompetenz",
+      "description": "Projekte für digitale Teilhabe und Medienkompetenz.",
+      "url": "https://www.digitale-chancen.de/",
+      "id": "HN-019",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.digitale-chancen.de/"
+    },
+    {
+      "name": "Initiative D21",
+      "topic": "Medienkompetenz",
+      "description": "Studien und Informationen zur digitalen Gesellschaft.",
+      "url": "https://initiatived21.de/",
+      "id": "HN-020",
+      "kind": "Forschung & Netzwerke",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://initiatived21.de/"
+    },
+    {
+      "name": "Deutsches Kinderhilfswerk",
+      "topic": "Medienkompetenz",
+      "description": "Kinderrechte und digitale Teilhabe.",
+      "url": "https://www.dkhw.de/",
+      "id": "HN-021",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.dkhw.de/"
+    },
+    {
+      "name": "Deutscher Bildungsserver",
+      "topic": "Medienkompetenz",
+      "description": "Informationen und Materialien für Bildung und Erziehung.",
+      "url": "https://www.bildungsserver.de/",
+      "id": "HN-022",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.bildungsserver.de/"
+    },
+    {
+      "name": "fragFINN",
+      "topic": "Medienkompetenz",
+      "description": "Geschützter Einstieg in altersgerechte Internetinhalte.",
+      "url": "https://www.fragfinn.de/",
+      "id": "HN-023",
+      "kind": "Kinderangebote & Werkzeuge",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.fragfinn.de/"
+    },
+    {
+      "name": "Blinde Kuh",
+      "topic": "Medienkompetenz",
+      "description": "Suchmaschine für Kinder.",
+      "url": "https://www.blinde-kuh.de/",
+      "id": "HN-024",
+      "kind": "Kinderangebote & Werkzeuge",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.blinde-kuh.de/"
+    },
+    {
+      "name": "Seitenstark",
+      "topic": "Medienkompetenz",
+      "description": "Netzwerk mit Kinderwebsites und Bildungsangeboten.",
+      "url": "https://www.seitenstark.de/",
+      "id": "HN-025",
+      "kind": "Kinderangebote & Werkzeuge",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.seitenstark.de/"
+    },
+    {
+      "name": "Bundeszentrale für Kinder- und Jugendmedienschutz",
+      "topic": "Online-Sicherheit",
+      "description": "Informationen zu Jugendmedienschutz und Risiken im Netz.",
+      "url": "https://www.bzkj.de/",
+      "id": "HN-026",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.bzkj.de/"
+    },
+    {
+      "name": "jugendschutz.net",
+      "topic": "Online-Sicherheit",
+      "description": "Informationen und Meldemöglichkeiten zu Risiken für Minderjährige im Internet.",
+      "url": "https://www.jugendschutz.net/",
+      "id": "HN-027",
+      "kind": "Prävention & Information",
+      "status": "teilgeprüft",
+      "verification": {
+        "official_site": true,
+        "link_live": false,
+        "service_scope": true,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": "2026-11-06"
+      },
+      "source_url": "https://www.jugendschutz.net/themen/selbstgefaehrdung/artikel/risikoverhalten-im-netz-was-tun"
+    },
+    {
+      "name": "Internet-Beschwerdestelle",
+      "topic": "Online-Sicherheit",
+      "description": "Meldestelle für rechtswidrige Internetinhalte.",
+      "url": "https://www.internet-beschwerdestelle.de/",
+      "id": "HN-028",
+      "kind": "Vermittlung & Meldestellen",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.internet-beschwerdestelle.de/"
+    },
+    {
+      "name": "HateAid",
+      "topic": "Online-Sicherheit",
+      "description": "Unterstützung bei digitaler Gewalt.",
+      "url": "https://hateaid.org/",
+      "id": "HN-029",
+      "kind": "Beratung & Hilfe",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://hateaid.org/"
+    },
+    {
+      "name": "WEISSER RING",
+      "topic": "Online-Sicherheit",
+      "description": "Hilfe für Opfer von Straftaten, auch im digitalen Raum.",
+      "url": "https://weisser-ring.de/",
+      "id": "HN-030",
+      "kind": "Beratung & Hilfe",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://weisser-ring.de/"
+    },
+    {
+      "name": "Polizei-Beratung",
+      "topic": "Online-Sicherheit",
+      "description": "Präventionstipps zu Cybercrime und anderen Straftaten.",
+      "url": "https://www.polizei-beratung.de/",
+      "id": "HN-031",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.polizei-beratung.de/"
+    },
+    {
+      "name": "BSI für Bürgerinnen und Bürger",
+      "topic": "Online-Sicherheit",
+      "description": "Tipps für IT-Sicherheit und Schutz von Onlinekonten.",
+      "url": "https://www.bsi.bund.de/",
+      "id": "HN-032",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.bsi.bund.de/"
+    },
+    {
+      "name": "Deutschland sicher im Netz",
+      "topic": "Online-Sicherheit",
+      "description": "Informationen zu sicherer Internetnutzung.",
+      "url": "https://www.sicher-im-netz.de/",
+      "id": "HN-033",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.sicher-im-netz.de/"
+    },
+    {
+      "name": "FSM – Freiwillige Selbstkontrolle Multimedia",
+      "topic": "Online-Sicherheit",
+      "description": "Informationen zum Jugendmedienschutz im Internet.",
+      "url": "https://www.fsm.de/",
+      "id": "HN-034",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.fsm.de/"
+    },
+    {
+      "name": "eco – Verband der Internetwirtschaft",
+      "topic": "Online-Sicherheit",
+      "description": "Informationen zu sicherem Internet und Beschwerdestrukturen.",
+      "url": "https://www.eco.de/",
+      "id": "HN-035",
+      "kind": "Forschung & Netzwerke",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.eco.de/"
+    },
+    {
+      "name": "Caritas Deutschland",
+      "topic": "Familie",
+      "description": "Beratung und Unterstützung in familiären und sozialen Belastungssituationen.",
+      "url": "https://www.caritas.de/",
+      "id": "HN-036",
+      "kind": "Beratung & Hilfe",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.caritas.de/"
+    },
+    {
+      "name": "Diakonie Deutschland",
+      "topic": "Familie",
+      "description": "Informationen zu sozialen Hilfen und Beratungsstellen.",
+      "url": "https://www.diakonie.de/",
+      "id": "HN-037",
+      "kind": "Beratung & Hilfe",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.diakonie.de/"
+    },
+    {
+      "name": "pro familia",
+      "topic": "Familie",
+      "description": "Beratung zu Familie, Partnerschaft und Lebensplanung.",
+      "url": "https://www.profamilia.de/",
+      "id": "HN-038",
+      "kind": "Beratung & Hilfe",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.profamilia.de/"
+    },
+    {
+      "name": "Deutscher Kinderschutzbund",
+      "topic": "Familie",
+      "description": "Angebote für Kinder, Jugendliche und Eltern.",
+      "url": "https://www.dksb.de/",
+      "id": "HN-039",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.dksb.de/"
+    },
+    {
+      "name": "Elternsein.info",
+      "topic": "Familie",
+      "description": "Informationen und Hilfen für Familien mit kleinen Kindern.",
+      "url": "https://www.elternsein.info/",
+      "id": "HN-040",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.elternsein.info/"
+    },
+    {
+      "name": "Frühe Hilfen",
+      "topic": "Familie",
+      "description": "Informationen zu Unterstützungsangeboten für junge Familien.",
+      "url": "https://www.fruehehilfen.de/",
+      "id": "HN-041",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.fruehehilfen.de/"
+    },
+    {
+      "name": "Deutscher Familienverband",
+      "topic": "Familie",
+      "description": "Informationen und Interessenvertretung für Familien.",
+      "url": "https://www.deutscher-familienverband.de/",
+      "id": "HN-042",
+      "kind": "Forschung & Netzwerke",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.deutscher-familienverband.de/"
+    },
+    {
+      "name": "NACOA Deutschland",
+      "topic": "Familie",
+      "description": "Informationen und Hilfen für Kinder aus suchtbelasteten Familien.",
+      "url": "https://nacoa.de/",
+      "id": "HN-043",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://nacoa.de/"
+    },
+    {
+      "name": "Deutsche Depressionshilfe",
+      "topic": "Krisenhilfe",
+      "description": "Informationen zu Depression und Hilfswegen.",
+      "url": "https://www.deutsche-depressionshilfe.de/",
+      "id": "HN-044",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.deutsche-depressionshilfe.de/"
+    },
+    {
+      "name": "krisenchat",
+      "topic": "Krisenhilfe",
+      "description": "Digitales psychosoziales Unterstützungsangebot für junge Menschen.",
+      "url": "https://krisenchat.de/",
+      "id": "HN-045",
+      "kind": "Beratung & Hilfe",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://krisenchat.de/"
+    },
+    {
+      "name": "Deutsche Gesellschaft für Suizidprävention",
+      "topic": "Krisenhilfe",
+      "description": "Informationen zur Suizidprävention und Hilfestrukturen.",
+      "url": "https://www.suizidprophylaxe.de/",
+      "id": "HN-046",
+      "kind": "Forschung & Netzwerke",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.suizidprophylaxe.de/"
+    },
+    {
+      "name": "NAKOS",
+      "topic": "Krisenhilfe",
+      "description": "Informationen und Suche rund um Selbsthilfegruppen.",
+      "url": "https://www.nakos.de/",
+      "id": "HN-047",
+      "kind": "Vermittlung & Meldestellen",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.nakos.de/"
+    },
+    {
+      "name": "Sucht & Drogen Hotline",
+      "topic": "Mediennutzung",
+      "description": "Informationen und Vermittlung bei Suchtfragen.",
+      "url": "https://www.sucht-und-drogen-hotline.de/",
+      "id": "HN-048",
+      "kind": "Beratung & Hilfe",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.sucht-und-drogen-hotline.de/"
+    },
+    {
+      "name": "Fachverband Medienabhängigkeit",
+      "topic": "Mediennutzung",
+      "description": "Fachinformationen zu problematischer Mediennutzung.",
+      "url": "https://www.fv-medienabhaengigkeit.de/",
+      "id": "HN-049",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://www.fv-medienabhaengigkeit.de/"
+    },
+    {
+      "name": "Aktion Jugendschutz Bayern",
+      "topic": "Mediennutzung",
+      "description": "Präventionsmaterialien zu Medien und Jugendthemen.",
+      "url": "https://bayern.jugendschutz.de/",
+      "id": "HN-050",
+      "kind": "Prävention & Information",
+      "status": "offen",
+      "verification": {
+        "official_site": false,
+        "link_live": false,
+        "service_scope": false,
+        "audience": false,
+        "cost": false,
+        "access": false,
+        "reviewed_at": null
+      },
+      "source_url": "https://bayern.jugendschutz.de/"
+    }
+  ]
+}
