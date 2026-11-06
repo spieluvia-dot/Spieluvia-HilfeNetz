@@ -391,6 +391,28 @@
       "offer_on_site": false,
       "cost_information": "Kostenlos",
       "note": "Thematische Online-Beratung mit geschütztem Zugang; auf Wunsch anonym. Erstanfragen werden in der Regel innerhalb von zwei Werktagen beantwortet. Keine zentrale Telefonberatung ausgewiesen."
+    },
+    "Antidiskriminierungsstelle des Bundes": {
+      "phone": "0800 546 5465",
+      "email": "beratung@ads.bund.de",
+      "hours": "Montag bis Donnerstag 9–15 Uhr (offizielle Broschüre, Stand April 2025)",
+      "hours_type": "beratung_telefonisch",
+      "contact_url": "https://www.antidiskriminierungsstelle.de/",
+      "source_url": "https://www.antidiskriminierungsstelle.de/SharedDocs/downloads/DE/publikationen/Flyer/die_antidiskriminierungsstelle_stellt_sich_vor.pdf?__blob=publicationFile&v=3",
+      "verified_on": "2026-11-06",
+      "verification_status": "Offizielle Quelle von April 2025; aktuelle Erreichbarkeit vor Nutzung prüfen",
+      "topics": [
+        "Diskriminierung",
+        "Benachteiligung",
+        "AGG"
+      ],
+      "target_groups": [
+        "Betroffene"
+      ],
+      "offer_online": true,
+      "offer_on_site": false,
+      "cost_information": "Kostenlos",
+      "note": "Vertrauliche Beratung; ältere Broschüren nennen abweichende Nummern, deshalb ausschließlich neuere offizielle Angabe aufgenommen."
     }
   }
 }
