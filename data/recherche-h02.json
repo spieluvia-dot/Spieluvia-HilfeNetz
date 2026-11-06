@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-06",
+  "notice": "Redaktioneller Prüfbestand, nicht gleichbedeutend mit 300 geprüften Angeboten. Keine Kooperationen behauptet.",
+  "entries": [
+    {
+      "id": "ins-netz-gehen",
+      "name": "Ins Netz gehen",
+      "type": "beratung",
+      "topics": [
+        "Mediennutzung",
+        "Prävention"
+      ],
+      "audiences": [
+        "Jugendliche",
+        "Eltern",
+        "Fachkräfte"
+      ],
+      "region": "Deutschland",
+      "url": "https://www.ins-netz-gehen.de/beratung/",
+      "cost": "kostenlose Onlineberatung",
+      "access": "Onlineberatung teilweise mit Registrierung",
+      "source": "https://www.ins-netz-gehen.de/beratung/beratung-fuer-eltern-lehr-fachkraefte/e-mail-beratung/",
+      "checked": "2026-11-06",
+      "status": "teilgeprüft"
+    },
+    {
+      "id": "bke-online",
+      "name": "bke-Onlineberatung",
+      "type": "beratung",
+      "topics": [
+        "Familie",
+        "Erziehung"
+      ],
+      "audiences": [
+        "Eltern",
+        "Jugendliche"
+      ],
+      "region": "Deutschland",
+      "url": "https://www.bke-beratung.de/",
+      "cost": "kostenlos",
+      "access": "Online",
+      "source": "https://familienportal.de/familienportal/lebenslagen/krise-und-konflikt/krisetelefone-anlaufstellen/beratung-und-begleitung-im-familienalltag-125480",
+      "checked": "2026-11-06",
+      "status": "teilgeprüft"
+    },
+    {
+      "id": "familienportal",
+      "name": "Familienportal des Bundes",
+      "type": "information",
+      "topics": [
+        "Familie",
+        "Soziale Hilfe"
+      ],
+      "audiences": [
+        "Eltern",
+        "Familien"
+      ],
+      "region": "Deutschland",
+      "url": "https://familienportal.de/familienportal/lebenslagen/krise-und-konflikt/hilfe-beratung-familien",
+      "cost": "Information frei zugänglich",
+      "access": "Online",
+      "source": "https://familienportal.de/familienportal/lebenslagen/krise-und-konflikt/hilfe-beratung-familien",
+      "checked": "2026-11-06",
+      "status": "teilgeprüft"
+    },
+    {
+      "id": "elterntelefon",
+      "name": "Elterntelefon – Nummer gegen Kummer",
+      "type": "beratung",
+      "topics": [
+        "Familie",
+        "Erziehung"
+      ],
+      "audiences": [
+        "Eltern"
+      ],
+      "region": "Deutschland",
+      "url": "https://www.nummergegenkummer.de/",
+      "cost": "kostenlos",
+      "access": "Telefon 0800 111 0 550; Zeiten auf Anbieterwebsite prüfen",
+      "source": "https://familienportal.de/familienportal/lebenslagen/krise-und-konflikt/krisetelefone-anlaufstellen/beratung-und-begleitung-im-familienalltag-125480",
+      "checked": "2026-11-06",
+      "status": "teilgeprüft"
+    },
+    {
+      "id": "dajeb-finder",
+      "name": "DAJEB-Beratungsführer",
+      "type": "vermittlung",
+      "topics": [
+        "Familie",
+        "Krisenhilfe",
+        "Soziale Hilfe"
+      ],
+      "audiences": [
+        "Familien",
+        "Erwachsene"
+      ],
+      "region": "Deutschland",
+      "url": "https://www.dajeb.de/",
+      "cost": null,
+      "access": "Beratungsstellensuche",
+      "source": "https://familienportal.de/familienportal/lebenslagen/krise-und-konflikt/krisetelefone-anlaufstellen/beratung-und-begleitung-im-familienalltag-125480",
+      "checked": "2026-11-06",
+      "status": "teilgeprüft"
+    }
+  ]
+}
