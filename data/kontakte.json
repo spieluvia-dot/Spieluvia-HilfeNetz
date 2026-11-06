@@ -189,6 +189,98 @@
       "offer_on_site": false,
       "cost_information": "Kostenlos",
       "note": "Telefon anonym und vertraulich, rund um die Uhr, innerhalb Deutschlands. Sichere Onlineberatung über Website; keine gewöhnliche Beratungs-E-Mail."
+    },
+    "Hilfetelefon Gewalt an Männern": {
+      "verified_on": "2026-11-06",
+      "verification_status": "geprüft",
+      "offer_online": true,
+      "offer_on_site": false,
+      "phone": "0800 1239900",
+      "hours": "Telefon: Mo–Do 8–20 Uhr, Fr 8–15 Uhr; Sofortchat Mo–Do 12–15 und 17–19 Uhr",
+      "hours_type": "beratung_telefonisch",
+      "contact_url": "https://www.maennerhilfetelefon.de/",
+      "source_url": "https://www.maennerhilfetelefon.de/",
+      "topics": [
+        "Häusliche Gewalt",
+        "Digitale Gewalt",
+        "Stalking",
+        "Psychische Gewalt"
+      ],
+      "target_groups": [
+        "Gewaltbetroffene Männer",
+        "Angehörige",
+        "Fachkräfte"
+      ],
+      "cost_information": "Kostenlos",
+      "note": "Anonyme Beratung; Mailberatung mit anonymer Registrierung, Chat ohne Registrierung."
+    },
+    "Hilfe-Telefon Sexueller Missbrauch": {
+      "verified_on": "2026-11-06",
+      "verification_status": "geprüft",
+      "offer_online": true,
+      "offer_on_site": false,
+      "phone": "0800 22 55 530",
+      "hours": "Mo, Mi, Fr 9–14 Uhr; Di, Do 15–20 Uhr; nicht an bundesweiten Feiertagen sowie 24. und 31. Dezember",
+      "hours_type": "beratung_telefonisch",
+      "contact_url": "https://www.hilfe-portal-missbrauch.de/hilfe-telefon",
+      "source_url": "https://www.hilfe-portal-missbrauch.de/hilfe-telefon",
+      "topics": [
+        "Sexualisierte Gewalt",
+        "Kinderschutz",
+        "Krisenhilfe"
+      ],
+      "target_groups": [
+        "Betroffene Jugendliche und Erwachsene",
+        "Angehörige",
+        "Fachkräfte"
+      ],
+      "cost_information": "Kostenlos",
+      "note": "Anonyme telefonische Beratung und geschützte Onlineberatung über Schreib-Ollie; keine offene Beratungsstelle."
+    },
+    "Silbernetz": {
+      "verified_on": "2026-11-06",
+      "verification_status": "geprüft",
+      "offer_online": true,
+      "offer_on_site": false,
+      "phone": "0800 4 70 80 90",
+      "hours": "Silbertelefon täglich 8–22 Uhr",
+      "hours_type": "beratung_telefonisch",
+      "email": "kontakt@silbernetz.de",
+      "contact_url": "https://silbernetz.org/",
+      "source_url": "https://silbernetz.org/",
+      "topics": [
+        "Einsamkeit",
+        "Alter",
+        "Soziale Kontakte"
+      ],
+      "target_groups": [
+        "Menschen ab 60 Jahren"
+      ],
+      "cost_information": "Kostenlos",
+      "note": "Anonymes Silbertelefon; E-Mail ist allgemeiner Organisationskontakt, keine vertrauliche Beratung per E-Mail."
+    },
+    "Medizinische Kinderschutzhotline": {
+      "verified_on": "2026-11-06",
+      "verification_status": "geprüft",
+      "offer_online": true,
+      "offer_on_site": false,
+      "phone": "0800 19 210 00",
+      "hours": "Täglich 24 Stunden",
+      "hours_type": "beratung_telefonisch",
+      "contact_url": "https://www.kinderschutzhotline.de/",
+      "source_url": "https://familienportal.de/familienportal/lebenslagen/krise-und-konflikt/krisetelefone-anlaufstellen",
+      "topics": [
+        "Kinderschutz",
+        "Misshandlung",
+        "Vernachlässigung"
+      ],
+      "target_groups": [
+        "Medizinisches Fachpersonal",
+        "Kinder- und Jugendhilfe",
+        "Familiengerichte"
+      ],
+      "cost_information": "Kostenlos",
+      "note": "Fachberatung für beruflich mit Kinderschutz befasste Personen; keine allgemeine Hotline für betroffene Kinder."
     }
   }
 }
