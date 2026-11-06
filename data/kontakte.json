@@ -349,6 +349,48 @@
       "offer_on_site": false,
       "cost_information": "Kostenlos",
       "note": "Sorgentelefon des Bundesverbands Kinderhospiz."
+    },
+    "Caritas Schuldnerberatung": {
+      "contact_url": "https://www.caritas.de/hilfeundberatung/onlineberatung/schuldnerberatung/",
+      "source_url": "https://www.caritas.de/hilfeundberatung/onlineberatung/schuldnerberatung/",
+      "verified_on": "2026-11-06",
+      "verification_status": "offizielle Quelle geprüft",
+      "topics": [
+        "Schulden",
+        "Finanzielle Not",
+        "Insolvenz"
+      ],
+      "target_groups": [
+        "Einzelpersonen",
+        "Familien"
+      ],
+      "offer_online": true,
+      "offer_on_site": true,
+      "cost_information": "Kostenlos",
+      "note": "Online-Beratung über geschützte Plattform, auf Wunsch anonym; Registrierung ohne E-Mail-Adresse möglich. Rückmeldung auf Erstanfrage in der Regel binnen zwei Werktagen. Lokale Beratungsstellen über Caritas-Suche; keine bundesweit einheitliche Hotline angegeben."
+    },
+    "Caritas Online-Beratung": {
+      "contact_url": "https://www.caritas.de/hilfeundberatung/onlineberatung/onlineberatung",
+      "source_url": "https://www.caritas.de/hilfeundberatung/onlineberatung/onlineberatung",
+      "verified_on": "2026-11-06",
+      "verification_status": "offizielle Quelle geprüft",
+      "topics": [
+        "Familie",
+        "Sucht",
+        "Trauer",
+        "Schwangerschaft",
+        "Migration",
+        "Psychische Belastung"
+      ],
+      "target_groups": [
+        "Kinder und Jugendliche",
+        "Eltern",
+        "Erwachsene"
+      ],
+      "offer_online": true,
+      "offer_on_site": false,
+      "cost_information": "Kostenlos",
+      "note": "Thematische Online-Beratung mit geschütztem Zugang; auf Wunsch anonym. Erstanfragen werden in der Regel innerhalb von zwei Werktagen beantwortet. Keine zentrale Telefonberatung ausgewiesen."
     }
   }
 }
