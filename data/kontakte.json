@@ -141,6 +141,54 @@
       "offer_online": true,
       "offer_on_site": false,
       "note": "Telefon und E-Mail sind Kontakte des Projektbüros, keine individuelle Beratungs-Hotline. Fragen zur Medienerziehung können über das Kontaktformular an Mediencoaches gerichtet werden. Keine Beratungszeiten verifiziert."
+    },
+    "JugendNotmail": {
+      "phone": "030 585828-141",
+      "email": "info@jugendnotmail.de",
+      "address": "Wiesenstraße 55 / Haus 5, 13357 Berlin (Trägeradresse, keine offene Beratungsstelle)",
+      "hours": "Live-Chat Mo–Do 18–20 Uhr; Nachrichten jederzeit einreichbar",
+      "hours_type": "online",
+      "contact_url": "https://jugendnotmail.de/",
+      "source_url": "https://jugendnotmail.de/",
+      "verified_on": "2026-11-06",
+      "verification_status": "geprüft",
+      "topics": [
+        "Psychische Belastung",
+        "Familie",
+        "Krisenhilfe"
+      ],
+      "target_groups": [
+        "Kinder",
+        "Jugendliche",
+        "junge Erwachsene"
+      ],
+      "offer_online": true,
+      "offer_on_site": false,
+      "cost_information": "Kostenlos",
+      "note": "Onlineberatung anonym über Website. Telefon und E-Mail sind Organisationskontakte, keine Beratungshotline. Altersangaben auf verschiedenen Unterseiten widersprüchlich; daher keine feste Altersobergrenze im Eintrag."
+    },
+    "Hilfetelefon Gewalt gegen Frauen": {
+      "phone": "116 016",
+      "hours": "Telefonberatung täglich 24 Stunden; Sofort-Chat täglich 12–20 Uhr",
+      "hours_type": "beratung_telefonisch",
+      "contact_url": "https://onlineberatung.hilfetelefon.de/",
+      "source_url": "https://www.hilfetelefon.de/das-hilfetelefon/beratung/telefon-beratung/",
+      "verified_on": "2026-11-06",
+      "verification_status": "geprüft",
+      "topics": [
+        "Gewalt",
+        "Digitale Gewalt",
+        "Krisenhilfe"
+      ],
+      "target_groups": [
+        "Gewaltbetroffene Frauen",
+        "Angehörige",
+        "Fachkräfte"
+      ],
+      "offer_online": true,
+      "offer_on_site": false,
+      "cost_information": "Kostenlos",
+      "note": "Telefon anonym und vertraulich, rund um die Uhr, innerhalb Deutschlands. Sichere Onlineberatung über Website; keine gewöhnliche Beratungs-E-Mail."
     }
   }
 }
