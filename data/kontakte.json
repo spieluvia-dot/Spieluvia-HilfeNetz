@@ -281,6 +281,74 @@
       ],
       "cost_information": "Kostenlos",
       "note": "Fachberatung für beruflich mit Kinderschutz befasste Personen; keine allgemeine Hotline für betroffene Kinder."
+    },
+    "Hilfetelefon Schwangere in Not": {
+      "phone": "0800 40 40 020",
+      "hours": "Rund um die Uhr",
+      "hours_type": "beratung_telefonisch",
+      "contact_url": "https://www.hilfetelefon-schwangere.de/",
+      "source_url": "https://familienportal.de/familienportal/lebenslagen/krise-und-konflikt/krisetelefone-anlaufstellen",
+      "verified_on": "2026-11-06",
+      "verification_status": "Familienportal geprüft; Betreiberabgleich offen",
+      "topics": [
+        "Schwangerschaft",
+        "Krisenhilfe",
+        "Vertrauliche Geburt"
+      ],
+      "target_groups": [
+        "Schwangere in Not"
+      ],
+      "offer_online": true,
+      "offer_on_site": false,
+      "cost_information": "Kostenlos",
+      "note": "Anonyme, mehrsprachige Erstberatung; Vermittlung an Beratungsstellen vor Ort."
+    },
+    "Pflegetelefon": {
+      "phone": "030 20 17 91 31",
+      "email": "info@wege-zur-pflege.de",
+      "hours": "Mo–Do 9–18 Uhr",
+      "hours_type": "beratung_telefonisch",
+      "contact_url": "https://www.wege-zur-pflege.de/",
+      "source_url": "https://familienportal.de/familienportal/lebenslagen/krise-und-konflikt/krisetelefone-anlaufstellen",
+      "verified_on": "2026-11-06",
+      "verification_status": "Familienportal geprüft; Betreiberabgleich offen",
+      "topics": [
+        "Pflege",
+        "Familie",
+        "Vereinbarkeit Pflege und Beruf"
+      ],
+      "target_groups": [
+        "Pflegende Angehörige",
+        "Pflegebedürftige",
+        "Arbeitgeber"
+      ],
+      "offer_online": false,
+      "offer_on_site": false,
+      "cost_information": "Kosten nicht auf Quelle ausgewiesen",
+      "note": "Beratung zu Organisation, Finanzierung und Vereinbarkeit von Pflege und Beruf."
+    },
+    "Frag Oskar – Kinderhospiz": {
+      "phone": "0800 8888 4711",
+      "hours": "Rund um die Uhr",
+      "hours_type": "beratung_telefonisch",
+      "contact_url": "https://www.frag-oskar.de/",
+      "source_url": "https://familienportal.de/familienportal/lebenslagen/krise-und-konflikt/krisetelefone-anlaufstellen",
+      "verified_on": "2026-11-06",
+      "verification_status": "Familienportal geprüft; Betreiberabgleich offen",
+      "topics": [
+        "Kinderhospiz",
+        "Trauer",
+        "Schwere Erkrankung"
+      ],
+      "target_groups": [
+        "Familien",
+        "Betroffene",
+        "Fachkräfte"
+      ],
+      "offer_online": false,
+      "offer_on_site": false,
+      "cost_information": "Kostenlos",
+      "note": "Sorgentelefon des Bundesverbands Kinderhospiz."
     }
   }
 }
