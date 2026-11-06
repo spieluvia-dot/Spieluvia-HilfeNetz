@@ -1,0 +1,30 @@
+
+name: GeoNames Ortsdaten importieren
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Deutsche Ortsdaten importieren
+        run: python scripts/import_geonames.py
+
+      - name: Daten speichern
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/orte.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Deutsche Ortsdaten aktualisieren"
+            git push
+          fi
