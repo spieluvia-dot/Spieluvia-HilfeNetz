@@ -45,6 +45,15 @@
       "source_url": "https://www.juuuport.de/ueber-uns",
       "verified_on": "2026-11-06",
       "note": "E-Mail ist Bürokontakt; vertrauliche Beratung über das Onlineformular, keine öffentliche telefonische Beratungsnummer"
+    },
+    "Deutsche Depressionshilfe": {
+      "phone": "0800 3344533",
+      "hours": "Info-Telefon: Mo, Di, Do 13–17 Uhr; Mi, Fr 8:30–12:30 Uhr",
+      "address": "Goerdelerring 9, 04109 Leipzig (Geschäftsstelle, keine offene Beratungsstelle)",
+      "contact_url": "https://www.deutsche-depressionshilfe.de/hilfe/info-mail-depression",
+      "source_url": "https://www.deutsche-depressionshilfe.de/hilfe/info-telefon",
+      "verified_on": "2026-11-06",
+      "note": "Bundesweite Information für Betroffene und Angehörige, keine Psychotherapie und kein Akut-Krisendienst."
     }
   }
 }
