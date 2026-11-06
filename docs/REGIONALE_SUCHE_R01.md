@@ -18,7 +18,7 @@
 2. ZIP entpacken, die enthaltene DE.txt bereitstellen.
 3. Im Repository-Arbeitsverzeichnis ausführen: python scripts/import_geonames.py DE.txt
 4. data/orte.json committen und auf Cloudflare Pages bereitstellen.
-5. Quelle und Lizenz nennen: GeoNames, CC BY 4.0, https://www.geonames.org/.
+5. Quelle und Lizenz nennen: GeoNames, CC BY 3.0, https://www.geonames.org/.
 
 ## Standorte hinzufügen
 Pro überprüfter Niederlassung in data/standorte.json einen Datensatz mit name, city, lat, lon, url hinzufügen. Adresse, Quelle, Prüfungstag und Leistungsart müssen vor Aufnahme redaktionell dokumentiert werden. Onlineangebote ohne Standort nicht als regionale Treffer behandeln.
