@@ -56,6 +56,47 @@
       "source_url": "https://www.deutsche-depressionshilfe.de/hilfe/info-telefon",
       "verified_on": "2026-11-06",
       "note": "Bundesweite Information für Betroffene und Angehörige, keine Psychotherapie und kein Akut-Krisendienst."
+    },
+    "DigiSucht": {
+      "contact_url": "https://www.suchtberatung.digital/",
+      "source_url": "https://www.suchtberatung.digital/unser-angebot/",
+      "verified_on": "2026-11-06",
+      "verification_status": "geprüft",
+      "hours_type": "online",
+      "cost_information": "Kostenfrei",
+      "target_groups": [
+        "Betroffene",
+        "Angehörige",
+        "Eltern"
+      ],
+      "topics": [
+        "Medienkonsum",
+        "Sucht",
+        "Glücksspiel"
+      ],
+      "offer_online": true,
+      "offer_on_site": false,
+      "note": "Kostenfreie Onlineberatung; Registrierung notwendig. Beratung per Nachricht und je nach Beratungsstelle Termin für Chat oder Video. kontakt@suchtberatung.digital ist technischer Plattformkontakt, keine Beratungsadresse."
+    },
+    "bke-Onlineberatung": {
+      "contact_url": "https://www.bke-beratung.de/",
+      "source_url": "https://www.bke-beratung.de/",
+      "verified_on": "2026-11-06",
+      "verification_status": "geprüft",
+      "hours_type": "online",
+      "cost_information": "Kostenfrei",
+      "target_groups": [
+        "Eltern mit Kindern bis 21 Jahre",
+        "Jugendliche 14–21 Jahre"
+      ],
+      "topics": [
+        "Erziehung",
+        "Familie",
+        "Jugendliche"
+      ],
+      "offer_online": true,
+      "offer_on_site": false,
+      "note": "Anonyme, kostenfreie textbasierte Onlineberatung durch Fachkräfte. Kontaktaufnahme über die Website; keine öffentliche Beratungshotline angegeben."
     }
   }
 }
