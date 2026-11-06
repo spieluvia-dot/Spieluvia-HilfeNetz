@@ -97,6 +97,50 @@
       "offer_online": true,
       "offer_on_site": false,
       "note": "Anonyme, kostenfreie textbasierte Onlineberatung durch Fachkräfte. Kontaktaufnahme über die Website; keine öffentliche Beratungshotline angegeben."
+    },
+    "klicksafe": {
+      "phone": "+49 621 5202-271",
+      "email": "info@klicksafe.de",
+      "address": "Turmstraße 10, 67059 Ludwigshafen (Projektkontakt, keine Beratungsstelle)",
+      "contact_url": "https://www.klicksafe.de/kontakt",
+      "source_url": "https://www.klicksafe.de/kontakt",
+      "verified_on": "2026-11-06",
+      "verification_status": "geprüft",
+      "hours_type": "buero",
+      "topics": [
+        "Medienkompetenz",
+        "Online-Sicherheit",
+        "Jugendmedienschutz"
+      ],
+      "target_groups": [
+        "Eltern",
+        "Lehrkräfte",
+        "Kinder und Jugendliche"
+      ],
+      "offer_online": true,
+      "offer_on_site": false,
+      "note": "Telefon und E-Mail sind Projektkontakte für Informationen, keine Krisen- oder persönliche Beratungs-Hotline. Keine verifizierten Sprechzeiten."
+    },
+    "SCHAU HIN!": {
+      "phone": "030 23322-6450",
+      "email": "info@schau-hin.info",
+      "contact_url": "https://www.schau-hin.info/ueber-uns/kontakt",
+      "source_url": "https://www.schau-hin.info/ueber-uns/kontakt",
+      "verified_on": "2026-11-06",
+      "verification_status": "geprüft",
+      "hours_type": "buero",
+      "topics": [
+        "Medienerziehung",
+        "Bildschirmzeiten",
+        "Gaming"
+      ],
+      "target_groups": [
+        "Eltern",
+        "Familien"
+      ],
+      "offer_online": true,
+      "offer_on_site": false,
+      "note": "Telefon und E-Mail sind Kontakte des Projektbüros, keine individuelle Beratungs-Hotline. Fragen zur Medienerziehung können über das Kontaktformular an Mediencoaches gerichtet werden. Keine Beratungszeiten verifiziert."
     }
   }
 }
