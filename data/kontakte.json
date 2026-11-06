@@ -29,6 +29,22 @@
       ],
       "source_url": "https://www.telefonseelsorge.de/telefon/",
       "verified_on": "2026-11-06"
+    },
+    "WEISSER RING": {
+      "phone": "116 006",
+      "hours": "Opfer-Telefon täglich 7–22 Uhr",
+      "contact_url": "https://weisser-ring.de/hilfe-fuer-opfer-0",
+      "source_url": "https://weisser-ring.de/hilfe-fuer-opfer/opfer-telefon",
+      "verified_on": "2026-11-06",
+      "note": "Telefonische Opferhilfe, Onlineberatung und lokale Außenstellen"
+    },
+    "JUUUPORT": {
+      "email": "info@juuuport.de",
+      "address": "Landschaftstraße 7, 30159 Hannover",
+      "contact_url": "https://beratung.juuuport.de/",
+      "source_url": "https://www.juuuport.de/ueber-uns",
+      "verified_on": "2026-11-06",
+      "note": "E-Mail ist Bürokontakt; vertrauliche Beratung über das Onlineformular, keine öffentliche telefonische Beratungsnummer"
     }
   }
 }
