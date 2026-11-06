@@ -1,0 +1,34 @@
+{
+  "updated": "2026-11-06",
+  "entries": {
+    "Nummer gegen Kummer": {
+      "phone": "116 111",
+      "hours": "Kinder- und Jugendtelefon: Mo–Sa 14–20 Uhr",
+      "extra_contacts": [
+        {
+          "label": "Elterntelefon",
+          "phone": "0800 111 0550",
+          "hours": "Mo, Mi, Fr 9–17 Uhr; Di, Do 9–19 Uhr"
+        }
+      ],
+      "source_url": "https://www.nummergegenkummer.de/",
+      "verified_on": "2026-11-06"
+    },
+    "TelefonSeelsorge": {
+      "phone": "116 123",
+      "hours": "Telefonberatung täglich rund um die Uhr",
+      "extra_contacts": [
+        {
+          "label": "Weitere Telefonnummer",
+          "phone": "0800 111 0111"
+        },
+        {
+          "label": "Weitere Telefonnummer",
+          "phone": "0800 111 0222"
+        }
+      ],
+      "source_url": "https://www.telefonseelsorge.de/telefon/",
+      "verified_on": "2026-11-06"
+    }
+  }
+}
