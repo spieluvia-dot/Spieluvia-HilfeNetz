@@ -1,4 +1,38 @@
 {
-  "note": "Nur überprüfte physische Beratungsstandorte eintragen. Keine bundesweiten Organisationszentralen als lokale Beratung ausgeben.",
-  "locations": []
+  "note": "Standorte anhand Landes-Suchthilfewegweiser dokumentiert. Entfernungen basieren auf GeoNames-PLZ-Koordinaten (nicht exakte Hausadresse). Keine unabhängige Qualitätszertifizierung.",
+  "locations": [
+    {
+      "name": "Caritas – Schwerpunktberatungsstelle Glücksspielsucht",
+      "postal_code": "39576",
+      "city": "Stendal",
+      "address": "Stadtseeallee 1, 39576 Stendal",
+      "url": "https://www.caritas-bistum-magdeburg.de/hilfe-beratung/sucht",
+      "note": "Suchtberatung mit Schwerpunkt Glücksspiel. Entfernung anhand des PLZ-Mittelpunkts, nicht der Hausadresse.",
+      "source_url": "https://www.ls-suchtfragen-lsa.de/suchthilfewegweiser/",
+      "verified_on": "2026-11-06",
+      "verification": "Adresse im Landes-Suchthilfewegweiser veröffentlicht"
+    },
+    {
+      "name": "Evangelische Stadtmission Halle – Suchtberatung",
+      "postal_code": "06108",
+      "city": "Halle (Saale)",
+      "address": "Weidenplan 3–5, 06108 Halle (Saale)",
+      "url": "https://www.stadtmission-halle.de/soziale-arbeit/suchtberatung/",
+      "note": "Suchtberatung; auch Schwerpunkt pathologisches Glücksspiel. Entfernung anhand des PLZ-Mittelpunkts.",
+      "source_url": "https://www.ls-suchtfragen-lsa.de/suchthilfewegweiser/",
+      "verified_on": "2026-11-06",
+      "verification": "Adresse im Landes-Suchthilfewegweiser veröffentlicht"
+    },
+    {
+      "name": "ASB – Suchtberatungsstelle Harzgerode",
+      "postal_code": "06493",
+      "city": "Harzgerode",
+      "address": "Bergstraße 1, 06493 Harzgerode",
+      "url": "https://www.asb-harzkreis.de/unsere-angebote/sucht/suchtberatung",
+      "note": "Suchtberatung. Entfernung anhand des PLZ-Mittelpunkts.",
+      "source_url": "https://www.ls-suchtfragen-lsa.de/suchthilfewegweiser/",
+      "verified_on": "2026-11-06",
+      "verification": "Adresse im Landes-Suchthilfewegweiser veröffentlicht"
+    }
+  ]
 }
