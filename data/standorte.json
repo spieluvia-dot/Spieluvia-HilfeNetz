@@ -88,6 +88,74 @@
       "source_url": "https://www.familienplanung.de/beratung/beratungsstelle-finden/detailansicht/seelsorgerliche-und-psychologische-beratungsstelle-schwangerschafts-und-schwangerschaftskonfliktberatung-688/",
       "verified_on": "2026-11-06",
       "verification": "Adresse, Telefon, E-Mail und Zeiten im öffentlichen Bundesinformationsportal familienplanung.de"
+    },
+    {
+      "name": "Caritas Schuldnerberatung Bad Doberan",
+      "postal_code": "18209",
+      "city": "Bad Doberan",
+      "address": "Verbindungsstraße 6, 18209 Bad Doberan",
+      "phone": "038203 426760",
+      "hours": "Mittwoch 9–12 Uhr und nach Vereinbarung",
+      "url": "https://www.caritas-im-norden.de/rostock/armut-schulden/soziale-schuldnerberatung",
+      "note": "Kostenlose vertrauliche Schuldnerberatung. Keine Notfallstelle; Entfernung anhand PLZ-Mittelpunkt.",
+      "source_url": "https://www.caritas-im-norden.de/rostock/armut-schulden/soziale-schuldnerberatung",
+      "verified_on": "2026-11-07",
+      "verification": "Offizielle Trägerseite: Standort, Telefonnummer und offene Sprechzeit"
+    },
+    {
+      "name": "Caritas Schuldnerberatung Rostock",
+      "postal_code": "18055",
+      "city": "Rostock",
+      "address": "Augustenstraße 85, 18055 Rostock",
+      "phone": "0381 4547230",
+      "hours": "Dienstag 9–12 Uhr, Donnerstag 13–17 Uhr",
+      "url": "https://www.caritas-im-norden.de/rostock/armut-schulden/soziale-schuldnerberatung",
+      "note": "Kostenlose vertrauliche Schuldnerberatung; Entfernung anhand PLZ-Mittelpunkt.",
+      "source_url": "https://www.caritas-im-norden.de/rostock/armut-schulden/soziale-schuldnerberatung",
+      "verified_on": "2026-11-07",
+      "verification": "Offizielle Trägerseite: Standort, Telefonnummer und offene Sprechzeit"
+    },
+    {
+      "name": "Evangelische Suchtberatung Bad Doberan",
+      "postal_code": "18209",
+      "city": "Bad Doberan",
+      "address": "Seestraße 13, 18209 Bad Doberan",
+      "phone": "038203 77455",
+      "email": "info@suchthilfe-doberan.de",
+      "hours": "Mo 9–12 Uhr; Di 9–12 und 13–18 Uhr; Mi 9–12 und 13–17 Uhr; Do nach Vereinbarung; Fr 9–12 Uhr; offene Sprechstunde Mi 13–15 Uhr",
+      "url": "https://www.suchthilfe-rostock.de/einrichtungen/suchtberatungsstelle-bad-doberan-landkreis-rostock/",
+      "note": "Sucht-, Essproblem- und Angehörigenberatung; Beratungsgespräche nach Terminabsprache; Entfernung anhand PLZ-Mittelpunkt.",
+      "source_url": "https://www.suchthilfe-rostock.de/einrichtungen/suchtberatungsstelle-bad-doberan-landkreis-rostock/",
+      "verified_on": "2026-11-07",
+      "verification": "Offizielle Einrichtungsseite: Anschrift, Kontakt und Zeiten"
+    },
+    {
+      "name": "Rostocker Stadtmission – Migrationsberatung Bad Doberan",
+      "postal_code": "18209",
+      "city": "Bad Doberan",
+      "address": "Klosterstraße 1b, 18209 Bad Doberan",
+      "phone": "038203 738340",
+      "email": "mbe@rostocker-stadtmission.de",
+      "hours": "Mo/Di 9–12 Uhr; Mi/Do 9–15 Uhr; Fr 9–12 Uhr; nur mit vorheriger Terminvereinbarung",
+      "url": "https://rostocker-stadtmission.de/migrationsberatung",
+      "note": "Kostenlose vertrauliche Migrationsberatung; Terminvereinbarung notwendig. Entfernung anhand PLZ-Mittelpunkt.",
+      "source_url": "https://rostocker-stadtmission.de/migrationsberatung",
+      "verified_on": "2026-11-07",
+      "verification": "Offizielle Einrichtungsseite: Anschrift, Kontakt und Beratungszeiten"
+    },
+    {
+      "name": "Psychosoziales Zentrum Rostock",
+      "postal_code": "18055",
+      "city": "Rostock",
+      "address": "Paulstraße 48–55, 18055 Rostock",
+      "phone": "0381 44049212",
+      "email": "psz@rostocker-stadtmission.de",
+      "hours": "Nur nach Terminvereinbarung",
+      "url": "https://rostocker-stadtmission.de/psychosoziales-zentrum-rostock",
+      "note": "Kostenlose psychosoziale Beratung für Menschen mit Flucht-, Migrations- oder Gewalterfahrung; keine spontanen Termine. Offizielle Seite enthält abweichende Kontaktadresse im Footer; hier Besuchsadresse aus Beschreibung.",
+      "source_url": "https://rostocker-stadtmission.de/psychosoziales-zentrum-rostock",
+      "verified_on": "2026-11-07",
+      "verification": "Offizielle Einrichtungsseite: Besuchsadresse, Telefonnummer und Terminregel; Footer-Adressabweichung dokumentiert"
     }
   ]
 }
