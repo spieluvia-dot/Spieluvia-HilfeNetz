@@ -25,12 +25,12 @@ for i, row in enumerate(locations):
     for key in ("name", "city", "postal_code", "address", "url", "source_url", "verified_on"):
         if not isinstance(row.get(key), str) or not row[key].strip():
             fail(f"{prefix}: missing {key}")
-    if not re.fullmatch(r"\\d{5}", str(row.get("postal_code", ""))):
+    if not re.fullmatch(r"\d{5}", str(row.get("postal_code", ""))):
         fail(f"{prefix}: invalid German postal code")
     for key in ("url", "source_url"):
         if row.get(key) and not valid_url(row[key]):
             fail(f"{prefix}: invalid {key}")
-    if row.get("verified_on") and not re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}", row["verified_on"]):
+    if row.get("verified_on") and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", row["verified_on"]):
         fail(f"{prefix}: invalid verified_on")
     ident = (str(row.get("name", "")).casefold().strip(), str(row.get("address", "")).casefold().strip())
     if ident in seen:
@@ -49,6 +49,6 @@ else:
                 fail(f"kontakte.json {name}: invalid {key}")
 print(f"Checked {len(locations)} locations and {len(contacts)} contact entries.")
 if errors:
-    print("\\n".join("ERROR: " + e for e in errors))
+    print("\n".join("ERROR: " + e for e in errors))
     raise SystemExit(1)
 print("PASS: offline JSON/schema/duplicate checks")
