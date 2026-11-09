@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Dependency-free, offline validation of HilfeNetz's public JSON datasets."""
 import json
+from datetime import date
 import re
 from pathlib import Path
 from urllib.parse import urlparse
@@ -18,6 +19,13 @@ def load(name):
 def valid_url(value):
     p = urlparse(str(value))
     return p.scheme == "https" and bool(p.netloc) and not p.username and not p.password
+def valid_date(value):
+    if not isinstance(value, str) or not re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}", value):
+        return False
+    try:
+        return date.fromisoformat(value) <= date.today()
+    except ValueError:
+        return False
 locations = load("standorte.json").get("locations", [])
 seen = set()
 for i, row in enumerate(locations):
@@ -30,7 +38,7 @@ for i, row in enumerate(locations):
     for key in ("url", "source_url"):
         if row.get(key) and not valid_url(row[key]):
             fail(f"{prefix}: invalid {key}")
-    if row.get("verified_on") and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", row["verified_on"]):
+    if row.get("verified_on") and not valid_date(row["verified_on"]):
         fail(f"{prefix}: invalid verified_on")
     ident = (str(row.get("name", "")).casefold().strip(), str(row.get("address", "")).casefold().strip())
     if ident in seen:
@@ -44,6 +52,8 @@ else:
         if not isinstance(row, dict):
             fail(f"kontakte.json {name}: not an object")
             continue
+        if row.get("verified_on") and not valid_date(row["verified_on"]):
+            fail(f"kontakte.json {name}: invalid or future verified_on")
         for key in ("contact_url", "source_url"):
             if row.get(key) and not valid_url(row[key]):
                 fail(f"kontakte.json {name}: invalid {key}")
