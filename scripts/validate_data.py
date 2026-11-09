@@ -20,7 +20,7 @@ def valid_url(value):
     p = urlparse(str(value))
     return p.scheme == "https" and bool(p.netloc) and not p.username and not p.password
 def valid_date(value):
-    if not isinstance(value, str) or not re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}", value):
+    if not isinstance(value, str) or not re.fullmatch(r"[0-9]{4}-[0-9]{2}-[0-9]{2}", value):
         return False
     try:
         return date.fromisoformat(value) <= date.today()
