@@ -37,7 +37,7 @@ async function testRegionalSearch() {
   const locations=[{name:'Test Doberan',postal_code:'18209',city:'Bad Doberan',url:'https://example.org/doberan'},
     {name:'Test Rostock',postal_code:'18055',city:'Rostock',url:'https://example.org/rostock'}];
   const document={getElementById:id=>elements.get(id),createElement:tag=>element(tag)};
-  const fetch=async path=>({ok:true,json:async()=>path.includes('orte.json')?{places}:{locations}});
+  const fetch=async path=>({ok:true,json:async()=>path === 'data/orte.json'?{places}:{locations}});
   vm.runInNewContext(geo,{document,fetch,window:{}});
   await new Promise(resolve=>setImmediate(resolve));
   const submit=(q,r='30')=>{
