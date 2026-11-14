@@ -39,13 +39,15 @@ async function testRegionalSearch() {
   const document={getElementById:id=>elements.get(id),createElement:tag=>element(tag)};
   const fetch=async path=>({ok:true,json:async()=>path === 'data/orte.json'?{places}:{locations}});
   vm.runInNewContext(geo,{document,fetch,window:{}});
-  await new Promise(resolve=>setImmediate(resolve));
   const submit=(q,r='30')=>{
     elements.get('place').value=q;
     elements.get('radius').value=r;
     elements.get('geo-form').submit({preventDefault(){}});
     return {message:elements.get('geo-status').textContent,items:elements.get('local-results').children};
   };
+  assert.match(submit('18209').message,/noch geladen/);
+  assert.equal(submit('18209').items.length,0);
+  await new Promise(resolve=>setImmediate(resolve));
   assert.match(submit('Rostock').message,/Mehrere Postleitzahlen/);
   assert.equal(submit('18209','5').items.length,1);
   assert.equal(submit('18055','5').items.length,1);
