@@ -1,0 +1,25 @@
+name: Validate HilfeNetz data
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate JSON and duplicates
+        run: python scripts/validate_data.py
+      - name: Check JavaScript syntax
+        run: |
+          node --check assets/app.js
+          node --check assets/geo.js
+          node --check assets/contact.js
+      - name: Run vCard and postal-code smoke tests
+        run: node scripts/smoke_test.js
