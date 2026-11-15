@@ -20,6 +20,27 @@ assert.ok(v.includes('FN:Beratung Müller\\, Nord\\; Süd'));
 assert.ok(v.includes('ADR;TYPE=WORK:;;Straße 1\\; Haus A\\, 18209 Bad Doberan;;;;'));
 assert.ok(v.includes('Mo 9–12 Uhr\\nDi 10–12 Uhr'));
 assert.ok(v.endsWith('END:VCARD\r\n'));
+
+// Regression: additional telephone numbers must keep digits in tel: URLs.
+{
+  const links = [];
+  const makeNode = () => ({
+    children: [],
+    append(...items) { this.children.push(...items); },
+    addEventListener() {},
+    set href(value) { this._href = value; links.push(value); },
+    get href() { return this._href; }
+  });
+  const doc = { createElement: () => makeNode(), createTextNode: value => value };
+  const contactContext = { window: {}, document: doc };
+  vm.runInNewContext(fs.readFileSync('assets/contact.js', 'utf8'), contactContext);
+  const card = makeNode();
+  contactContext.window.SpieluviaContact.add(card, {
+    name: 'Test', extra_contacts: [{label:'Zusatzkontakt',phone:'0381 123456'}]
+  });
+  assert.ok(links.includes('tel:0381123456'), 'extra contact telephone link must preserve all digits');
+}
+
 console.log('PASS: postal-code source check and vCard escaping/CRLF');
 
 
