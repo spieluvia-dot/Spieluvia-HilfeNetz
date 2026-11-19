@@ -1,0 +1,37 @@
+name: Artifact storage audit (read only)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Measure available artifacts without deletion
+        shell: python
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          import os,json,urllib.request,datetime
+          repo=os.environ["GITHUB_REPOSITORY"]; token=os.environ["GH_TOKEN"]
+          headers={"Authorization":"Bearer "+token,"Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28"}
+          items=[]; page=1
+          while True:
+           req=urllib.request.Request(f"https://api.github.com/repos/{repo}/actions/artifacts?per_page=100&page={page}",headers=headers)
+           with urllib.request.urlopen(req,timeout=45) as response: payload=json.load(response)
+           batch=payload.get("artifacts",[]);items.extend(batch)
+           if len(batch)<100:break
+           page+=1
+           if page>100:raise RuntimeError("Safety limit: over 10000 artifacts")
+          now=datetime.datetime.now(datetime.timezone.utc)
+          old=[a for a in items if datetime.datetime.fromisoformat(a["created_at"].replace("Z","+00:00"))<now-datetime.timedelta(days=7)]
+          fmt=lambda n:f"{n/1024**3:.3f} GiB"
+          lines=[f"# Artifact storage audit: {repo}","",f"- Available artifacts: **{len(items)}**",f"- Total available size: **{fmt(sum(a['size_in_bytes'] for a in items))}**",f"- Older than 7 days (upper bound, NOT deletion plan): **{len(old)} / {fmt(sum(a['size_in_bytes'] for a in old))}**","","| Artifact | Size (MiB) | Created (UTC) | Age > 7d |","|---|---:|---|---|"]
+          for a in sorted(items,key=lambda x:x["size_in_bytes"],reverse=True)[:40]:
+           lines.append(f"| {a['name'].replace('|','/')} | {a['size_in_bytes']/1024**2:.1f} | {a['created_at']} | {'yes' if a in old else 'no'} |")
+          lines.extend(["","Read-only audit: no artifacts, releases or runs were deleted. Age alone does not establish safe deletability."])
+          report="\\n".join(lines)
+          print(report)
+          with open(os.environ["GITHUB_STEP_SUMMARY"],"a",encoding="utf-8") as f:f.write(report+"\\n")
