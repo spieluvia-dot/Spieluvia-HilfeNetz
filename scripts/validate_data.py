@@ -27,10 +27,10 @@ def valid_date(value):
     except ValueError:
         return False
 def valid_phone(value):
-    return isinstance(value, str) and bool(re.fullmatch(r"\\+?[0-9][0-9 ()/.-]*", value.strip())) and 3 <= len(re.sub(r"\\D", "", value)) <= 20
+    return isinstance(value, str) and bool(re.fullmatch(r"\+?[0-9][0-9 ()/.-]*", value.strip())) and 3 <= len(re.sub(r"\D", "", value)) <= 20
 
 def valid_email(value):
-    return isinstance(value, str) and bool(re.fullmatch(r"[^\\s@]+@[^\\s@]+\\.[^\\s@]+", value.strip()))
+    return isinstance(value, str) and bool(re.fullmatch(r"[^\s@]+@[^\s@]+\.[^\s@]+", value.strip()))
 
 def check_contact_fields(row, prefix):
     for key in ("phone", "email", "hours"):
