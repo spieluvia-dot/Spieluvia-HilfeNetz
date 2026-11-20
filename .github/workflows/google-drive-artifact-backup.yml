@@ -1,6 +1,8 @@
-name: Google Drive artifact backup (manual safe test)
+name: Google Drive artifact backup
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '47 4 * * *'
 
 permissions:
   actions: read
