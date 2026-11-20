@@ -1,0 +1,110 @@
+name: Google Drive artifact backup (manual safe test)
+on:
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: read
+
+concurrency:
+  group: google-drive-backup
+  cancel-in-progress: false
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Require private rclone configuration
+        shell: bash
+        env:
+          RCLONE_CONFIG_B64: ${{ secrets.RCLONE_CONFIG_B64 }}
+        run: |
+          if [ -z "$RCLONE_CONFIG_B64" ]; then
+            echo "::error::Repository secret RCLONE_CONFIG_B64 is missing. No backup was attempted."
+            exit 1
+          fi
+          umask 077
+          mkdir -p "$HOME/.config/rclone"
+          printf '%s' "$RCLONE_CONFIG_B64" | base64 --decode > "$HOME/.config/rclone/rclone.conf"
+          if ! grep -q '^\[SpieluviaDrive\]' "$HOME/.config/rclone/rclone.conf"; then
+            echo "::error::Remote SpieluviaDrive missing from rclone config."
+            exit 1
+          fi
+      - name: Install rclone
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq rclone
+      - name: Backup all currently available artifacts (no deletion)
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          DEST: SpieluviaDrive:GitHub-Backups-Automatisch/${{ github.repository }}
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/artifacts"
+          python3 - <<'PY'
+          import os, json, urllib.request, urllib.error, pathlib, hashlib, re, time
+          repo=os.environ["GH_REPO"]
+          token=os.environ["GH_TOKEN"]
+          dest=pathlib.Path(os.environ["RUNNER_TEMP"])/"artifacts"
+          headers={"Authorization":f"Bearer {token}","Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28","User-Agent":"spieluvia-backup"}
+          def get(url):
+              # Restrict GitHub token to api.github.com; redirected archives use a separate host.
+              req=urllib.request.Request(url,headers=headers)
+              opener=urllib.request.build_opener()
+              with opener.open(req,timeout=120) as r:
+                  return r.read()
+          def get_archive(aid):
+              # Request archive URL without following redirects while authenticated.
+              class NoRedirect(urllib.request.HTTPRedirectHandler):
+                  def redirect_request(self,req,fp,code,msg,headers,newurl):
+                      return None
+              url=f"https://api.github.com/repos/{repo}/actions/artifacts/{aid}/zip"
+              try:
+                  urllib.request.build_opener(NoRedirect()).open(urllib.request.Request(url,headers=headers),timeout=120)
+                  raise RuntimeError("Expected artifact redirect")
+              except urllib.error.HTTPError as exc:
+                  if exc.code not in (302,307):
+                      raise
+                  location=exc.headers.get("Location")
+                  if not location or not location.startswith("https://"):
+                      raise RuntimeError("Unsafe artifact redirect")
+                  from urllib.parse import urlsplit
+                  host=urlsplit(location).hostname or ""
+                  if not (host.endswith(".actions.githubusercontent.com") or host.endswith(".blob.core.windows.net") or host.endswith(".githubusercontent.com")):
+                      raise RuntimeError("Unexpected artifact download host")
+                  with urllib.request.urlopen(urllib.request.Request(location),timeout=120) as response:
+                      return response.read()
+          artifacts=[]
+          for page in range(1,101):
+              batch=json.loads(get(f"https://api.github.com/repos/{repo}/actions/artifacts?per_page=100&page={page}"))["artifacts"]
+              artifacts+=batch
+              if len(batch)<100: break
+          else: raise RuntimeError("Safety stop: more than 100 pages")
+          if not artifacts:
+              print("No available artifacts; nothing to back up")
+          manifest=[]
+          for a in artifacts:
+              if a.get("expired"): continue
+              aid=a["id"]
+              filename=f"artifact-{aid}.zip"
+              target=dest/filename
+              # GitHub API returns a redirect to the artifact archive.
+              data=get_archive(aid)
+              if not data.startswith(b"PK"):
+                  raise RuntimeError(f"Unexpected artifact response for {aid}")
+              target.write_bytes(data)
+              sha=hashlib.sha256(data).hexdigest()
+              manifest.append({"id":aid,"name":a["name"],"created_at":a["created_at"],"size":len(data),"sha256":sha,"file":filename})
+              print(f"Downloaded artifact {aid}: {len(data)} bytes")
+          (dest/"manifest.json").write_text(json.dumps({"repository":repo,"artifacts":manifest},indent=2),encoding="utf-8")
+          print(f"Ready to upload {len(manifest)} artifacts")
+          PY
+          rclone copy "$RUNNER_TEMP/artifacts" "$DEST/" --checkers 4 --transfers 2 --retries 3 --log-level INFO
+          rclone check "$RUNNER_TEMP/artifacts" "$DEST/" --one-way --size-only
+          echo "Backup upload and remote size verification completed. No GitHub artifacts deleted." >> "$GITHUB_STEP_SUMMARY"
+      - name: Remove local OAuth credentials
+        if: always()
+        run: rm -f "$HOME/.config/rclone/rclone.conf"
