@@ -16,6 +16,8 @@ jobs:
           python-version: '3.12'
       - name: Validate JSON and duplicates
         run: python scripts/validate_data.py
+      - name: Reject invalid contact data (negative regression tests)
+        run: python scripts/test_validator_negative.py
       - name: Check JavaScript syntax
         run: |
           node --check assets/app.js
